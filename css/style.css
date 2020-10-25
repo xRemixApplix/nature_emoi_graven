@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: Montserrat;
+}
+
+h1{
+    font-size: 80px;
+    font-family: 'Abril Fatface';
+    margin : 190px 100px;
+    width: 50%;
+    font-weight: 80;
+    line-height: 1em;
+}
+
+header{
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    color: #fff;
+}
+
+header img{
+    width: 150px;
+    margin: 20px 0 0 40px;
+}
+
+li{
+    list-style: none;
+    margin: 0 20px;
+    font-weight: 500;
+    font-size: 0.9em;
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+}
+
+#logo_nav,
+ul{
+    display: flex;
+    align-items: center;
+}
+
+#scroll{
+    margin-left: 100px;
+    padding: 30px 0;
+}
