@@ -14,6 +14,13 @@ h1{
     line-height: 1em;
 }
 
+h2{
+    font-family: 'Abril Fatface';
+    margin-left: 100px;
+    font-size: 60px;
+    font-weight: 30;
+}
+
 header{
     background-image: url(../images/bg.jpg);
     background-size: cover;
@@ -38,6 +45,40 @@ li a{
 }
 
 /* CLASSE */
+.best{
+    width: 300px;
+}
+
+.foot_fiche{
+    background-color:#FFFFFFDF;
+    margin-top: -70px;
+    height: 61px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.know{
+    display: block;
+    width: 120px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 50px;
+    background-color: #ADD981;
+    color: white;
+    font-size: 0.8em;
+}
+
+.prix{
+    color: #ADD981;
+}
+
+.underline_green{
+    font-family: 'Abril Fatface';
+    font-size: 60px;
+    font-weight: 30;
+    border-bottom: 10px #ADD981 solid;
+}
 
 /* ID */
 #action{
@@ -50,6 +91,12 @@ li a{
 #action div{
     width: 200px;
     text-align: center;
+    font-weight: 500;
+}
+
+#best_sold{
+    margin: 50px 0 300px 100px;
+    display: flex;
     font-weight: 500;
 }
 
