@@ -57,10 +57,40 @@ li a{
     width: 300px;
 }
 
+.best_1{
+    background-image: url(../images/nos_meilleures_ventes/1.jpg);
+    background-size: cover;
+    height: 450px;
+}
+
+.best_2{
+    background-image: url(../images/nos_meilleures_ventes/2.jpg);
+    background-size: cover;
+}
+
+.best_3{
+    background-image: url(../images/nos_meilleures_ventes/3.jpg);
+    background-size: cover;
+}
+
+.best_4{
+    background-image: url(../images/nos_meilleures_ventes/4.jpg);
+    background-size: cover;
+}
+
 .foot_fiche{
     background-color:#FFFFFFDF;
     margin-top: -70px;
     height: 61px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.foot_fiche_best{
+    background-color:#FFFFFFDF;
+    margin-top: 390px;
+    height: 60px;
     display: flex;
     justify-content: space-around;
     align-items: center;
