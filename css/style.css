@@ -5,6 +5,14 @@
     font-family: Montserrat;
 }
 
+footer{
+    display: flex;
+    width: 1200px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+    justify-content: space-between;
+}
+
 h1{
     font-size: 80px;
     font-family: 'Abril Fatface';
