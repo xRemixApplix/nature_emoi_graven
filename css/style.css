@@ -80,8 +80,17 @@ li a{
 
 .foot_fiche{
     background-color:#FFFFFFDF;
-    margin-top: -70px;
-    height: 61px;
+    margin-top: 540px;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.foot_fiche_hori{
+    background-color:#FFFFFFDF;
+    margin-top: 240px;
+    height: 60px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -107,19 +116,50 @@ li a{
     font-size: 0.8em;
 }
 
+.plant_1{
+    background-image: url(../images/nos_plantes/1.jpg);
+    background-size: cover;
+}
+
+.plant_2{
+    background-image: url(../images/nos_plantes/2.jpg);
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+.plant_3{
+    background-image: url(../images/nos_plantes/3.jpg);
+    background-size: cover;
+}
+
+.plant_4{
+    background-image: url(../images/nos_plantes/4.jpg);
+    background-size: cover;
+}
+
+.plant_5{
+    background-image: url(../images/nos_plantes/5.jpg);
+    background-size: cover;
+}
+
+.plant_6{
+    background-image: url(../images/nos_plantes/6.jpg);
+    background-size: cover;
+}
+
 .plant_hori{
     width: 640px;
-    height: 230px;
+    height: 290px;
 }
 
 .plant_midd{
     width: 540px;
-    height: 500px;
+    height: 600px;
 }
 
 .plant_vert{
     width: 310px;
-    height: 500px;
+    height: 600px;
 }
 
 .prix{
@@ -163,7 +203,7 @@ li a{
 
 #haut_plant{
     display: flex;
-    margin: 0 0 20px 100px;
+    margin: 50px 0 20px 100px;
     width: 1200px;
     justify-content: space-between;
 }
